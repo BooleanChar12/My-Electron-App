@@ -4,8 +4,12 @@
   "description": "我的第一个electron-app",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "qiaoqi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.2.0"
+  }
 }
